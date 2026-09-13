@@ -1,0 +1,60 @@
+UserID: 1957692504 | Time: 2026-09-11 16:22:03.608719 | Command: /bgmi | Target: 85857474.55 | Port: 4774 | Time: 60
+Username: @Manish8x
+Target: 85857474.55
+Port: 4774
+Time: 60
+
+UserID: 6011621332 | Time: 2026-09-11 16:56:38.466892 | Command: /bgmi | Target: 52.140.12.129 | Port: 10176 | Time: 40
+Username: @Noor_YT5
+Target: 52.140.12.129
+Port: 10176
+Time: 40
+
+UserID: 6011621332 | Time: 2026-09-11 16:58:30.695714 | Command: /bgmi | Target: 20.44.44.156 | Port: 10454 | Time: 40
+Username: @Noor_YT5
+Target: 20.44.44.156
+Port: 10454
+Time: 40
+
+UserID: 6011621332 | Time: 2026-09-11 18:58:58.713716 | Command: /bgmi | Target: 101.32.122.245 | Port: 10394 | Time: 40
+Username: @Noor_YT5
+Target: 101.32.122.245
+Port: 10394
+Time: 40
+
+UserID: 6011621332 | Time: 2026-09-11 20:16:26.009371 | Command: /bgmi | Target: 101.32.122.245 | Port: 10244 | Time: 40
+Username: @Noor_YT5
+Target: 101.32.122.245
+Port: 10244
+Time: 40
+
+UserID: 6011621332 | Time: 2026-09-11 20:24:32.528807 | Command: /bgmi | Target: 101.32.122.4 | Port: 10450 | Time: 40
+Username: @Noor_YT5
+Target: 101.32.122.4
+Port: 10450
+Time: 40
+
+UserID: 6011621332 | Time: 2026-09-11 20:34:40.506282 | Command: /bgmi | Target: 101.32.122.245 | Port: 10358 | Time: 40
+Username: @Noor_YT5
+Target: 101.32.122.245
+Port: 10358
+Time: 40
+
+UserID: 6011621332 | Time: 2026-09-11 21:45:22.361269 | Command: /bgmi | Target: 101.32.47.13 | Port: 10330 | Time: 40
+Username: @Noor_YT5
+Target: 101.32.47.13
+Port: 10330
+Time: 40
+
+UserID: 6011621332 | Time: 2026-09-11 21:56:24.856071 | Command: /bgmi | Target: 101.32.122.4 | Port: 10151 | Time: 40
+Username: @Noor_YT5
+Target: 101.32.122.4
+Port: 10151
+Time: 40
+
+UserID: 6011621332 | Time: 2026-09-11 22:03:34.286136 | Command: /bgmi | Target: 101.32.122.71 | Port: 10422 | Time: 40
+Username: @Noor_YT5
+Target: 101.32.122.71
+Port: 10422
+Time: 40
+

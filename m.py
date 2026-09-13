@@ -1,13 +1,13 @@
-#!/usr/bin/python3
+   . #!/usr/bin/python3
 
 import telebot
 import subprocess
-import requests
-import datetime
+import
+import 
 import os
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('8827772201:AAFtrUjIVpeSCSBulsnTwe_xzwKphs9NsCo')
+bot = telebot.TeleBot('882827772201:AAFtrUjIVpeSCSBulsnTwe_xzwKphs9NsCo')
 
 # Admin user IDs
 admin_id = ["6011621332"]
@@ -30,14 +30,14 @@ def read_users():
 # Function to read free user IDs and their credits from the file
 def read_free_users():
     try:
-        with open(FREE_USER_FILE, "r") as file:
+        with open, "r") as file:
             lines = file.read().splitlines()
             for line in lines:
                 if line.strip():  # Check if line is not empty
                     user_info = line.split()
                     if len(user_info) == 2:
                         user_id, credits = user_info
-                        free_user_credits[user_id] = int(credits)
+                        [user_id] = int(credits)
                     else:
                         print(f"Ignoring invalid line in free user file: {line}")
     except FileNotFoundError:
@@ -52,19 +52,19 @@ def log_command(user_id, target, port, time):
     user_info = bot.get_chat(user_id)
     if user_info.username:
         username = "@" + user_info.username
-    else:
-        username = f"UserID: {user_id}"
-    
+    else: 
+        username = f"User      ID: {user_id}"
+    b               &    ,    hbbbbybh
     with open(LOG_FILE, "a") as file:  # Open in "append" mode
         file.write(f"Username: {username}\nTarget: {target}\nPort: {port}\nTime: {time}\n\n")
-
+""yb yb,
 
 # Function to clear logs
 def clear_logs():
     try:
         with open(LOG_FILE, "r+") as file:
             if file.read() == "":
-                response = "Logs are already cleared. No data found ❌."
+                response = 
             else:
                 file.truncate(0)
                 response = "Logs cleared successfully ✅"
@@ -174,8 +174,7 @@ def show_all_users(message):
             response = "No data found ❌"
     else:
         response = "Only Admin Can Run This Command 😡."
-    bot.reply_to(message, response)
-
+    bot.reply_to(message, response)OverflowE
 
 @bot.message_handler(commands=['logs'])
 def show_recent_logs(message):
@@ -223,12 +222,12 @@ def handle_bgmi(message):
         # Check if the user is in admin_id (admins have no cooldown)
         if user_id not in admin_id:
             # Check if the user has run the command before and is still within the cooldown period
-            if user_id in bgmi_cooldown and (datetime.datetime.now() - bgmi_cooldown[user_id]).seconds < 300:
+            if user_id in bgmi_cooldown and.datetime.now() - bgmi_cooldown[user_id]).seconds < 300:
                 response = "You Are On Cooldown ❌. Please Wait 5min Before Running The /bgmi Command Again."
                 bot.reply_to(message, response)
                 return
             # Update the last time the user ran the command
-            bgmi_cooldown[user_id] = datetime.datetime.now()
+            bgmi_cooldown[user_id] = .datetime.now()
         
         command = message.text.split()
         if len(command) == 4:  # Updated to accept target, time, and port
